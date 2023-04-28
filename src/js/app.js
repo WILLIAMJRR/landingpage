@@ -8,3 +8,7 @@ const tooltipList = [...tooltipTriggerList].map(
 );
 //scroll smooth
 const scroll = new SmoothScroll('a[href*="#"]');
+
+setTimeout(() => {
+  toast.hide()
+}, 2500)
